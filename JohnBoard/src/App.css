@@ -182,3 +182,38 @@
     border-right-color: var(--border);
   }
 }
+
+.cart-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.cart-section h2 {
+  margin-bottom: 16px;
+}
+
+.cart-items {
+  display: flex;
+  flex-direction: column;
+}
+
+.cart-section {
+  max-width: 800px;
+  margin: 40px auto;
+  padding: 0 20px;
+}
+
+.empty-cart {
+  color: #666;
+  font-style: italic;
+}
+
+.cart-total {
+  margin-top: 20px;
+  padding: 16px;
+  background-color: #f8f9fa;
+  border-radius: 8px;
+  text-align: right;
+  font-size: 1.3rem;
+}
